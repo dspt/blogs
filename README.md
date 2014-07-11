@@ -1,0 +1,4 @@
+blogs
+=====
+
+Entries for blogs
