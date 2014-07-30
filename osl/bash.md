@@ -9,4 +9,4 @@ Using a case statement and filtering out the color from the hostname, I color co
 
 This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt.  The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails. A quick hack to make life prettier!
 
-![picture](https://staff.osuosl.org/~pono/bashblog2.png)
+![picture](https://staff.osuosl.org/~pono/bashblog3.png)
