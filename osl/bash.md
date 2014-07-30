@@ -1,5 +1,5 @@
-Color Coded Bash Prompt
-=======================
+Super Cool Awesome Blog Post Name - Subtitle, lucyw things the old name was bad
+===============================================================================
 
 At the OSL our workstations are shared and name after colors.  emerald.workstation.osuosl.bak is where I usually sit in the NOC (Figure 1).  I use tmux (Figure *) to multiplex so I can connect to my session from anywhere, but when splitting the terminal to get a side by side, very often the prompt can get obscenely long (Figure 2). This calls for shortening the bash prompt in order to maximize utility of $COLUMNS.
 
@@ -9,4 +9,4 @@ Using a case statement and filtering out the color from the hostname I color cod
 
 This was a 10 minute addition in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt.  The other thing you might notice that is I directly add the unicode heart into the prompt, this causes difficulty on TTYs and some terminal emulators, so there should be a check to make sure it can be loaded and replacing with something else if it fails.
 
-![picture](https://staff.osuosl.org/~pono/bashblog.png)
+![picture](https://staff.osuosl.org/~pono/bashblog1.png)
