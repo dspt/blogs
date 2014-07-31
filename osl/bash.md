@@ -7,8 +7,8 @@ Behold! (Figure 3, 4)
 
 Using a case statement and filtering out the color from the hostname, I color code my prompt based on hostname.  This very easily lets me know $HOSTNAME (again this is an environment variable which contains /etc/hostname), and indirectly /usr/bin/whoami since almost every other user will preface their prompt with a $USER.
 
-This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt.  The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs, where it is replaced with a ♦, and some terminal emulators.  There should be a check to make sure it can be loaded and replacing with something else if it fails. All in all this is just quick hack to make life prettier!
+This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt.  The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs and some terminal emulators where it is replaced with a ♦ (which is an ASCII character).  There should be a check to make sure it can be loaded and replacing with something else if it fails. All in all this is just quick hack to make life prettier!
 
-![Source!](https://gist.github.com/dspt/113418b78abebab76d97)
+[Source!](https://gist.github.com/dspt/113418b78abebab76d97)
 
 ![picture](https://staff.osuosl.org/~pono/bashblog3.png)
