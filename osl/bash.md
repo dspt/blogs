@@ -9,25 +9,6 @@ Using a case statement and filtering out the color from the hostname, I color co
 
 This was a 10 minute exercise in learning how to write case statements in bash and provide some cute utility to an otherwise stale prompt.  The other thing you might notice is that I directly add the unicode heart into the prompt. This causes difficulty on TTYs, where it is replaced with a ♦, and some terminal emulators.  There should be a check to make sure it can be loaded and replacing with something else if it fails. All in all this is just quick hack to make life prettier!
 
-```bash
-box="${HOSTNAME#*.}"
-D=$'\[\e[0m\]'
-
-case "$box" in
-
-aqua)    COLOR=$'\e[1;34m\]'
-         ;;
-cyan)    COLOR=$'\e[1;36m\]'
-         ;;
-diamond) COLOR=$'\e[0;37m\]'
-         ;;
-emerald) COLOR=$'\e[1;32m\]'
-         ;;
-pink)    COLOR=$'\e[0;35m\]'
-         ;;
-yellow)  COLOR=$'\e[0;33m\]'
-         ;;
-esac
-```
+![Source!](https://gist.github.com/dspt/113418b78abebab76d97)
 
 ![picture](https://staff.osuosl.org/~pono/bashblog3.png)
